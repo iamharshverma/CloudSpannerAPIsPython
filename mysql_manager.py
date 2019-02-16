@@ -11,8 +11,8 @@ class DbConnections():
     __dbconnections = None
 
     def __init__(self):
-        self.discover_sql_read = SqlManager.get_db_connection(SqlDbInstances.HIKE_DISCOVER_DS, True)
-        self.discover_sql_write = SqlManager.get_db_connection(SqlDbInstances.HIKE_DISCOVER_DS, False)
+        self.discover_sql_read = SqlManager.get_db_connection(SqlDbInstances.DISCOVER_DS, True)
+        self.discover_sql_write = SqlManager.get_db_connection(SqlDbInstances.DISCOVER_DS, False)
 
     @classmethod
     def get_instance(cls):
