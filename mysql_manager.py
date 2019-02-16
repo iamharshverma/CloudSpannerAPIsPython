@@ -22,7 +22,7 @@ class DbConnections():
 
 
 class SqlDbInstances:
-    HIKE_DISCOVER_DS = 'discoverds'
+    DISCOVER_DS = 'discoverds'
 
 
 class SqlManager:
